@@ -1,0 +1,65 @@
+/* Basic styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Updated background color for better contrast */
+}
+
+header {
+    display: flex; /* Added flexbox for better layout */
+    justify-content: space-between; /* Space between header elements */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Added padding for better spacing */
+}
+
+
+header {
+    background: #465660;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul {
+    display: flex; /* Changed to flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation items */
+}
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
